@@ -1,6 +1,6 @@
 ***
-# Rohlik Sales Forecasting Challenge (tentative title)
-Use historical product sales data to predict future sales (tentative subheading)
+# Rohlik Sales Forecasting
+Predicting future sales value with CatBoost
 ***
 
 <br>
