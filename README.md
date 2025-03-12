@@ -11,12 +11,12 @@ This project aims to forecast sales for a grocery delivery platform that operate
 
 ## ❓ Key questions
 
-- Model selection
-  - Does the sales data exhibit seasonality?
-  - Is the dataset complete or are there missing values?
-- Feature selection
-  - What feature engineering techniques can be applied based on the existing features?
-  - Which features play a significant rolw in explaining the sales data?
+**Model selection**
+- Does the sales data exhibit seasonality?
+- Is the dataset complete or are there missing values?
+**Feature selection**
+- What feature engineering techniques can be applied based on the existing features?
+- Which features play a significant rolw in explaining the sales data?
 
 ## 💾 Dataset
 
@@ -41,7 +41,7 @@ data
 
 ## 🧭 Methodology
 
-*Tools highlighted with `pre-formatting` for clarity. Relevant steps are indicated within parentheses
+*Tools highlighted with `pre-formatting` for clarity. Relevant steps from the Jupyter Notebook are indicated within parentheses.
 
 - [Step 0-2] Exploratory Data Analysis and Feature Engineering
   - Utilize `pandas` for data manipulation and `matplotlib`, along with `seaborn` and `plotly` to analyze the seasonality of sales data.
@@ -51,11 +51,12 @@ data
   - Split the two years of data into different time series to determine the optimal time span for analysis.
   - Use a naive model with average sales as the prediction as baseline (WMAE 29.95)
 - [Step 5-7] Feature selection and model hyperparamter tuning
-  | Process | WMAE | Improvement |
+
+  | Process | WMAE | Improvement compared to baseline |
   |:-------|:----|:-----------|
-  | Train `CatBoost` model with default setting| 31.00 |  |
-  | Feature selection with permutation importance | 30.75 | 0.85% |
-  | Hyperparameter fine-tuning using `Optuna`| 26.69 | 13.20% |
+  | Train `CatBoost` model with default setting| 31.00 | -3.39% |
+  | Feature selection with permutation importance | 30.75 | -2.60% |
+  | Hyperparameter fine-tuning using `Optuna`| 26.69 | 12.21% |
 
 ## ⏭️ Next steps
 
