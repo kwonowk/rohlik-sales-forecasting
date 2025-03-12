@@ -14,6 +14,7 @@ This project aims to forecast sales for a grocery delivery platform that operate
 **Model selection**
 - Does the sales data exhibit seasonality?
 - Is the dataset complete or are there missing values?
+
 **Feature selection**
 - What feature engineering techniques can be applied based on the existing features?
 - Which features play a significant rolw in explaining the sales data?
@@ -60,5 +61,7 @@ data
 
 ## ⏭️ Next steps
 
-- Study winners' solutions: Analyze top Kaggle solutions to understand best practices and approaches
-- Continue exploring various time-series forecasting models : Such as LSTMs, XGBoost, and other hybrid models
+- Study winners' solutions
+  - Analyze top Kaggle solutions to understand best practices and approaches
+- Continue exploring various time-series forecasting models
+  - Such as LSTMs, XGBoost, and other hybrid models
